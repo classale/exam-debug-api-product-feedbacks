@@ -1,0 +1,28 @@
+.feedback-comments,
+.feedback-post {
+	display: flex;
+	flex-direction: column;
+	gap: 24px 0;
+	padding: 24px;
+	background-color: var(--white);
+	color: var(--grey-darken-1);
+	border-radius: 8px;
+}
+
+.feedback-post-actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feedback-comments-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 12px 0;
+}
+
+.feedback-comment-item {
+	display: flex;
+	flex-direction: column;
+	color: var(--grey-darken-1);
+	padding: 24px 64px 24px 0;
+}
