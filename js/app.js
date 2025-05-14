@@ -22,7 +22,7 @@ let feedbackCommentsWrapper = document.querySelector(
 function createComment(text) {
 	const pComment = document.createElement("p");
 
-	pComment.classList.add("feedback-item");
+	pComment.classList.add("feedback-comment-item");
 	pComment.textContent = text;
 
 	return pComment;
